@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caesar Cypher</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Caesar Cypher</h1>
+        
+        <div class="form">
+            <label for="cypherKey" data-cy="cypherKey">Clé de chiffrement:</label>
+            <input type="number" id="cypherKey" value="6" min="1" max="25" data-cy="cypherKey">
+            
+            <label for="inputText" data-cy="inputText">Texte à chiffrer:</label>
+            <textarea class="cipher-message" id="inputText" placeholder="Entrez votre texte" data-cy="inputText">Hello World!</textarea>
+            
+            <button id="cypherBtn" type="button" data-cy="cypherBtn">Chiffrer</button>
+            
+            <div id="result" data-cy="result"></div>
+        </div>
+    </div>
+    
+    <script src="caesar.js"></script>
+</body>
+</html>

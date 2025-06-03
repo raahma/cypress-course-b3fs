@@ -1,0 +1,23 @@
+{
+  "name": "cypress-course-b3fs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raahma/cypress-course-b3fs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raahma/cypress-course-b3fs/issues"
+  },
+  "homepage": "https://github.com/raahma/cypress-course-b3fs#readme",
+  "description": "",
+  "dependencies": {
+    "cypress": "^14.4.0"
+  }
+}
