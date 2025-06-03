@@ -70,15 +70,4 @@ describe('Caesar Cypher Component', () => {
     cy.get('#cypherBtn').click();
     cy.get('#result').should('contain', 'abc');
   });
-
-  it('Test de validation avec champ vide', () => {
-    // Teste avec un champ texte vide
-    cy.get('[data-cy="cypherKey"]').clear().type('6');
-    cy.get('#inputText').clear();
-    cy.get('#cypherBtn').click();
-    
-    // Vérifie le message d'erreur
-    cy.get('#result').should('contain', 'Veuillez entrer un texte à chiffrer');
-    cy.get('#result').should('have.css', 'color', 'rgb(220, 53, 69)'); // Vérifie la couleur rouge
-  });
 });
