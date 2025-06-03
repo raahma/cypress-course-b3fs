@@ -1,6 +1,6 @@
 describe('Caesar Cypher Component', () => {
   beforeEach(() => {
-    // Visite la page avant chaque test
+    
     cy.visit('pages/caesar.html');
   });
 
